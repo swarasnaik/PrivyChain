@@ -1,0 +1,286 @@
+
+.permissions-page {
+  color: #edf0ff;
+  padding: 8px 4px 30px;
+}
+
+.pm-heading,
+.pm-toolbar,
+.pm-request-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+}
+
+.pm-heading {
+  margin-bottom: 28px;
+}
+
+.pm-eyebrow {
+  color: #a99aff;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.pm-heading h1 {
+  font-size: clamp(27px, 4vw, 35px);
+  letter-spacing: -1px;
+  margin: 9px 0;
+}
+
+.pm-heading p,
+.pm-toolbar p {
+  color: #9da7c3;
+  font-size: 13px;
+  margin: 0;
+}
+
+.pm-pending-counter {
+  min-width: 125px;
+  text-align: center;
+  padding: 14px;
+  background: #27223f;
+  border: 1px solid #514276;
+  border-radius: 14px;
+}
+
+.pm-pending-counter span,
+.pm-pending-counter small {
+  display: block;
+}
+
+.pm-pending-counter span {
+  font-size: 27px;
+  font-weight: 800;
+  color: #c3b5ff;
+}
+
+.pm-pending-counter small {
+  color: #c1badb;
+  font-size: 11px;
+  margin-top: 4px;
+}
+
+.pm-privacy-banner {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  background: linear-gradient(110deg, #242442, #1c263c);
+  border: 1px solid #3a3d65;
+  border-radius: 15px;
+  margin-bottom: 32px;
+}
+
+.pm-banner-icon {
+  font-size: 27px;
+}
+
+.pm-privacy-banner strong {
+  font-size: 14px;
+}
+
+.pm-privacy-banner p {
+  margin: 6px 0 0;
+  color: #aeb8d2;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.pm-toolbar {
+  margin-bottom: 18px;
+}
+
+.pm-toolbar h2 {
+  margin: 0 0 7px;
+  font-size: 20px;
+}
+
+.pm-toolbar select {
+  color: #e7eaff;
+  background: #1a2138;
+  border: 1px solid #37405f;
+  border-radius: 9px;
+  padding: 10px 12px;
+}
+
+.pm-request-list {
+  display: grid;
+  gap: 17px;
+}
+
+.pm-request-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 22px;
+  background: #171e33;
+  border: 1px solid #303956;
+  border-radius: 16px;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.pm-request-card:hover {
+  border-color: #7164c5;
+  transform: translateY(-2px);
+}
+
+.pm-request-icon {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 49px;
+  height: 49px;
+  border-radius: 14px;
+  background: #292747;
+  font-size: 23px;
+}
+
+.pm-request-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.pm-request-title {
+  margin-bottom: 18px;
+}
+
+.pm-request-title h3 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.pm-status {
+  border-radius: 20px;
+  padding: 7px 10px;
+  font-size: 10px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.pm-pending {
+  color: #f2d18b;
+  background: #3a3020;
+}
+
+.pm-approved {
+  color: #8ce6c0;
+  background: #173a35;
+}
+
+.pm-rejected {
+  color: #ffabbc;
+  background: #412330;
+}
+
+.pm-request-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.pm-request-detail span {
+  color: #929dbb;
+  font-size: 11px;
+}
+
+.pm-request-detail strong {
+  font-size: 13px;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.pm-request-date {
+  color: #929dbb;
+  font-size: 11px;
+  margin: 18px 0;
+}
+
+.pm-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pm-actions button {
+  padding: 11px 15px;
+  border-radius: 9px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.pm-approve {
+  border: 1px solid #337a68;
+  background: #193d37;
+  color: #9ce9cb;
+}
+
+.pm-approve:hover {
+  background: #24564a;
+}
+
+.pm-reject {
+  border: 1px solid #754052;
+  background: #38212e;
+  color: #ffb6c4;
+}
+
+.pm-reject:hover {
+  background: #512a3a;
+}
+
+.pm-decision-message {
+  border-top: 1px solid #303956;
+  padding-top: 14px;
+  color: #aeb8d2;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.pm-empty {
+  text-align: center;
+  padding: 30px;
+  color: #aab3cd;
+  border: 1px dashed #37405f;
+  border-radius: 14px;
+}
+
+.pm-demo-note {
+  color: #929dbb;
+  font-size: 11px;
+  line-height: 1.7;
+  margin-top: 22px;
+}
+
+@media (max-width: 650px) {
+  .pm-heading,
+  .pm-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .pm-request-card {
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .pm-request-title {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .pm-pending-counter {
+    min-width: 110px;
+  }
+}
+
+@media (max-width: 420px) {
+  .pm-request-card {
+    flex-direction: column;
+  }
+}
