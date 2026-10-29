@@ -1,0 +1,128 @@
+
+.wallet-connect {
+  background: #17172b;
+  border: 1px solid #302d4c;
+  border-radius: 18px;
+  padding: 24px;
+  color: #f4f3ff;
+  margin: 20px 0;
+}
+
+.wallet-connect-top {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+.wallet-symbol {
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  background: #30264d;
+  color: #c4b5fd;
+  font-size: 30px;
+}
+
+.wallet-connect-top h3 {
+  margin: 0 0 7px;
+  font-size: 18px;
+}
+
+.wallet-connect-top p {
+  margin: 0;
+  color: #aaa8c1;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.wallet-button {
+  width: 100%;
+  padding: 13px 16px;
+  background: #7955df;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.wallet-button:hover:not(:disabled) {
+  background: #906ff0;
+}
+
+.wallet-button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.wallet-connected {
+  padding: 16px;
+  background: #202039;
+  border: 1px solid #393653;
+  border-radius: 12px;
+}
+
+.wallet-status-dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #4ade80;
+  margin-right: 8px;
+}
+
+.wallet-connected > span:nth-child(2) {
+  color: #86efac;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.wallet-address-label {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  color: #aaa8c1;
+  font-size: 12px;
+}
+
+.wallet-address {
+  overflow-wrap: anywhere;
+  color: #e4defe;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.wallet-network {
+  margin-top: 10px;
+  margin-bottom: 18px;
+  color: #aaa8c1;
+  font-size: 12px;
+}
+
+.wallet-disconnect {
+  background: #30263b;
+  border: 1px solid #5a3d62;
+}
+
+.wallet-disconnect:hover:not(:disabled) {
+  background: #49314f;
+}
+
+.wallet-message {
+  margin: 14px 0 0;
+  color: #c4b5fd;
+  font-size: 13px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.wallet-disclaimer {
+  margin: 18px 0 0;
+  color: #9694ae;
+  font-size: 12px;
+  line-height: 1.7;
+}

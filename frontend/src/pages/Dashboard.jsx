@@ -1,6 +1,7 @@
 
 import { Link } from "react-router-dom";
 import "./dashboard.css";
+import WalletConnect from "../components/WalletConnect.jsx";
 
 const stats = [
   {
@@ -64,6 +65,7 @@ const activities = [
 function Dashboard() {
   return (
     <div className="pc-dashboard">
+      <WalletConnect />
       <section className="pc-welcome">
         <div className="pc-welcome-copy">
           <span className="pc-overline">
@@ -201,7 +203,7 @@ function Dashboard() {
         </div>
       </div>
     </div>
+    
   );
 }
-
 export default Dashboard;
