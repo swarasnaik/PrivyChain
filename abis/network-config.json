@@ -1,0 +1,26 @@
+{
+  "networkName": "MST Coral Testnet",
+  "chainId": 54635,
+  "chainIdHex": "0xd56b",
+  "rpcUrl": "https://coralrpc.mstblockchain.com",
+  "wsUrl": "wss://coralrpc.mstblockchain.com",
+  "currencySymbol": "tMSTC",
+  "blockExplorerUrl": "https://coral.mstscan.com",
+  "faucetUrl": "https://coral-faucet.mstblockchain.com",
+  "contracts": {
+    "PrivyCredentialRegistry": {
+      "address": "PENDING_DEPLOYMENT",
+      "status": "Undeployed - Pending deployment approval in Phase 6"
+    },
+    "PrivyPermissionManager": {
+      "address": "PENDING_DEPLOYMENT",
+      "status": "Undeployed - Pending deployment approval in Phase 6"
+    }
+  },
+  "frontendEnvKeys": {
+    "rpcUrl": "VITE_MST_TESTNET_RPC_URL",
+    "chainId": "VITE_MST_TESTNET_CHAIN_ID",
+    "registryAddress": "VITE_REGISTRY_CONTRACT_ADDRESS",
+    "permissionManagerAddress": "VITE_PERMISSION_MANAGER_CONTRACT_ADDRESS"
+  }
+}
