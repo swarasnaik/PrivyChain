@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import "./dashboard.css";
+import "./Dashboard.css";
 import WalletConnect from "../components/WalletConnect.jsx";
 
 const stats = [
